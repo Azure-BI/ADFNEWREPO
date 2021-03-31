@@ -7,7 +7,7 @@
 				"type": "Copy",
 				"dependsOn": [
 					{
-						"activity": "Copy data2",
+						"activity": "SP_COPY",
 						"dependencyConditions": [
 							"Succeeded"
 						]
@@ -26,7 +26,7 @@
 				}
 			},
 			{
-				"name": "Copy data2",
+				"name": "SP_COPY",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
